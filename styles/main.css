@@ -1,0 +1,47 @@
+body {
+    background: black;
+    color: white;
+    font-family: 'Orbitron', sans-serif;: 
+  }
+  
+  #background, #heli {
+    border: 2px solid red;
+     position: absolute; 
+    /* display: flex; */
+  }
+  
+  canvas {
+    
+    z-index : -1; 
+  }
+  #game-and-score {
+    display: flex;
+  }
+
+  #scores {
+    display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      /* margin-top: 500px; */
+      margin-left: 410px;
+  }
+  
+  .collision {
+    background: red;
+    color: white;
+  }
+  .collision-push {
+    background: blue;
+    color: white;
+  }
+  .revert {
+    background: black;
+    color: white;
+  }
+  
+  #play-again {
+    margin-left: 200px;
+    width: 100px;
+    height: 50px;
+    font-family: 'Orbitron', sans-serif;: 
+  }
